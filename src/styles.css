@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.button-class {
+  height: 30px;
+  width: 100px;
+  background-color: #d3d3d3;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-family: Alice;
+}
+button:hover {
+  background-color: #a9a9a9;
+}
+.quote-class {
+  font-family: Alice;
+  position: relative;
+  width: 600px;
+  height: 250px;
+}
+.author-class {
+  position: absolute;
+  right: 25px;
+}
+.content-class {
+  font-size: 20px;
+  text-align: center;
+}
+.link-style {
+  height: 30px;
+  width: 40px;
+  background-color: #1da1f2;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  background-color: #a9a9a9;
+}
+.font-awesome-style {
+  color: white;
+}
+.body-class {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
